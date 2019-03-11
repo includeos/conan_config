@@ -1,0 +1,17 @@
+[settings]
+os=Linux
+os_build=Linux
+arch=armv8
+arch_build=x86_64
+compiler=gcc
+compiler.version=7
+compiler.libcxx=libstdc++11
+build_type=Release
+[options]
+[build_requires]
+*: binutils/2.31@includeos/toolchain
+[env]
+CC=aarch64-linux-gnu-gcc-8
+CXX=aarch64-linux-gnu-g++-8
+CFLAGS=-mcpu=cortex-a53
+CXXFLAGS=-mcpu=cortex-a53
