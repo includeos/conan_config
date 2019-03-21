@@ -1,2 +1,3 @@
+includeos https://api.bintray.com/conan/includeos/includeos True
 includeos-test https://api.bintray.com/conan/includeos/test-packages True
 includeos-test-deps https://api.bintray.com/conan/includeos/test True
