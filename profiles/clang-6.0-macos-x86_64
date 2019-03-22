@@ -13,5 +13,5 @@ build_type=Release
 [options]
 [env]
 # Brew install llvm@6
-CC=/usr/local/Cellar/llvm\@6/6.0.1_1/bin/clang
-CXX=/usr/local/Cellar/llvm\@6/6.0.1_1/bin/clang++
+CC=/usr/local/opt/llvm\@6/bin/clang
+CXX=/usr/local/opt/llvm\@6/bin/clang++
