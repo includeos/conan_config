@@ -29,10 +29,13 @@ Below is a list of profiles with description.
 
 #### Build on MacOS
 
-** Clang 6.0 : **
+__Clang 6.0 :__
+
+- clang-6.0-macos-x86_64
+
+#### Build toolchain for MacOS
 
 - apple-clang-10-macos-toolchain
-- clang-6.0-macos-x86_64
 
 #### Build on Linux
 
