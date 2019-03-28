@@ -13,5 +13,5 @@ build_type=Release
 [env]
 CC=/usr/bin/gcc-7
 CXX=/usr/bin/g++-7
-CFLAGS=-msse3 -mfpmath=sse
-CXXFLAGS=-msse3 -mfpmath=sse
+CFLAGS=-msse3 -mfpmath=sse -O2 -g
+CXXFLAGS=-msse3 -mfpmath=sse -O2 -g

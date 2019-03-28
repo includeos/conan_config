@@ -13,5 +13,5 @@ build_type=Release
 [env]
 CC=clang-6.0
 CXX=clang++-6.0
-CFLAGS=-msse3 -mfpmath=sse
-CXXFLAGS=-msse3 -mfpmath=sse
+CFLAGS=-msse3 -mfpmath=sse -O2 -g
+CXXFLAGS=-msse3 -mfpmath=sse -O2 -g
