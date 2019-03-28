@@ -15,7 +15,10 @@ $ conan config install https://github.com/includeos/conan_config.git
 ```
 
 ## Using multiple conan configurations
-To prevent overwriting any existing conan configuration the IncludeOS configuration can be tested by creating a custom conan home. To do this set the environment variable `CONAN_USER_HOME` to a path where a `.conan` folder will be created.
+To prevent overwriting any existing conan configuration the IncludeOS
+configuration can be tested by creating a custom conan home.
+To do this set the environment variable `CONAN_USER_HOME` to a path where a
+`.conan` folder will be created.
 
 
 ### Profiles in Support
@@ -33,7 +36,7 @@ Below is a list of profiles with description.
 
 #### Build on Linux
 
-** Clang 6.0 : **
+__Clang 6.0 :__
 
 - clang-6.0-linux-x86_64-toolchain
 - clang-6.0-linux-x86_64
@@ -43,12 +46,12 @@ For building on `x86_64` for `x86` use the profiles below:
 - clang-6.0-linux-x86-toolchain    
 - clang-6.0-linux-x86
 
-** GCC 7.3 : **
+__GCC 7.3 :__
 
 - gcc-7.3.0-linux-x86_64-toolchain
 - gcc-7.3.0-linux-x86_64
 
-** GCC 8.2 : **
+__GCC 8.2 :__
 
 Currently in progress is work on `aarch64` with `gcc8.2`
 
