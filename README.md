@@ -53,6 +53,8 @@ __GCC 7.3 :__
 
 - gcc-7.3.0-linux-x86_64-toolchain
 - gcc-7.3.0-linux-x86_64
+- gcc-7.3.0-linux-aarch64-toolchain
+- gcc-7.3.0-linux-aarch64               
 
 __GCC 8.2 :__
 
