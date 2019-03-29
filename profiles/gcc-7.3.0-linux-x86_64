@@ -7,7 +7,7 @@ arch=x86_64
 arch_build=x86_64
 compiler=gcc
 compiler.version=7
-compiler.libcxx=libc++
+compiler.libcxx=libstdc++11
 cppstd=17
 build_type=Release
 [options]
